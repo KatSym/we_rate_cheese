@@ -1,9 +1,11 @@
-Date,Cheese,Producer,Provider,Rater,Cheese_rating,Piece_rating
-20240810,Cailladoux,NA,Rene Lang,Angelos,5,NA
-20240810,Cailladoux,NA,Rene Lang,Katerina,5,NA
-20240810,St Nectaire,NA,Rene Lang,Angelos,4,NA
-20240810,St Nectaire,NA,Rene Lang,Katerina,4,NA
-20240810,Anthotyros ksiros,NA,Prokopakis,Angelos,5,3
-20240810,Anthotyros ksiros,NA,Prokopakis,Katerina,3,3
-20200725,Mite cheese,Würchwitzer Milbenkäse Manufaktur,Würchwitzer Milbenkäse Manufaktur,Angelos,3,NA
-20200725,Mite cheese,Würchwitzer Milbenkäse Manufaktur,Würchwitzer Milbenkäse Manufaktur,Katerina,3,NA
+"Date","Cheese","Producer","Provider","Rater","Cheese_rating","Piece_rating"
+"2024-08-10","Cailladoux",NA,"Rene Lang","Angelos","5",NA
+"2024-08-10","Cailladoux",NA,"Rene Lang","Katerina","5",NA
+"2024-08-10","St Nectaire",NA,"Rene Lang","Angelos","4",NA
+"2024-08-10","St Nectaire",NA,"Rene Lang","Katerina","4",NA
+"2024-08-10","Anthotyros ksiros",NA,"Prokopakis","Angelos","5","3"
+"2024-08-10","Anthotyros ksiros",NA,"Prokopakis","Katerina","3","3"
+"2020-07-25","Mite cheese","W?rchwitzer Milbenk?se Manufaktur","W?rchwitzer Milbenk?se Manufaktur","Angelos","3",NA
+"2020-07-25","Mite cheese","W?rchwitzer Milbenk?se Manufaktur","W?rchwitzer Milbenk?se Manufaktur","Katerina","3",NA
+"2024-08-17","Montagnolo","","Kaufland","Angelos","5","3"
+"2024-08-17","Montagnolo","","Kaufland","Katerina","5","3"

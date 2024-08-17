@@ -9,6 +9,14 @@
 
 library(shiny)
 
+rating = list(0L,1L,2L,3L,4L,5L)
+names(rating) = c("I regret eating it",
+                  "I hate it",
+                  "I don't like it",
+                  "I can eat it",
+                  "I like it",
+                  "I love it")
+
 ui <- fluidPage(
   titlePanel("Cheese Rating App"),
   
@@ -22,9 +30,15 @@ ui <- fluidPage(
       textInput("cheese_name", "Cheese Name", ""),
       textInput("producer", "Cheese Producer", ""),
       textInput("provider", "Cheese Provider", ""),
-      sliderInput("cheese_rating", "Cheese rating", 
-                  min = 0, max = 5, value = 3),
-      numericInput("piece_rating", "Piece rating", ""),
+      #sliderInput("cheese_rating", "Cheese rating", 
+      #            min = 0, max = 5, value = 3),
+      selectInput("cheese_rating", "Cheese rating",
+                  rating,
+                  selected = 3L),
+      #numericInput("piece_rating", "Piece rating", ""),
+      selectInput("piece_rating", "Piece rating",
+                  rating,
+                  selected = 3L),
       actionButton("submit", div("Submit", icon("cheese")))
     ),
     

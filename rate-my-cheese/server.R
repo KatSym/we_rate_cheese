@@ -18,7 +18,7 @@ load_ratings <- function() {
   if (file.exists(ratings_file)) {
     read.csv(ratings_file, stringsAsFactors = FALSE)
   } else {
-    data.frame(Date = as.Date(),
+    data.frame(Date = character(),
                Rater = factor(),
                Cheese = character(),
                Producer = character(),
@@ -45,7 +45,7 @@ server <- function(input, output, session) {
     
     # Add a new row with input of new info
     new_row <- data.frame(
-      Date = input$date,
+      Date = format(as.Date(input$date, origin="1970-01-01"), "%Y-%m-%d"),
       Rater = input$rater,
       Cheese = input$cheese_name,
       Producer = input$producer,
